@@ -16,7 +16,7 @@
         <form method="post" action="agecalculator">
             Enter your age:<input type="text" name="age"><br>
             <input type="submit" value="Age next birthday">
-            <p>f${result}</p><br>
+            <p>${result}</p><br>
         </form>
     </body>
 </html>
