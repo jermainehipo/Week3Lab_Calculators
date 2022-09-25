@@ -20,9 +20,8 @@
             <input type="submit" name="submit" value="-">
             <input type="submit" name="submit" value="*">
             <input type="submit" name="submit" value="%">
-            <br>
-            
-            Result: <p>${result}</p>
+            <br><br>
+            Result: ${result} <br>
             
             <a href="agecalculator">Age Calculator
             
