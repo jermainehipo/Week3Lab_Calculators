@@ -77,6 +77,7 @@ public class ArithmeticCalculatorServlet extends HttpServlet {
             case"-": result = firstNum - secondNum; break;
             case"*": result = firstNum * secondNum; break;
             case"%": result = firstNum % secondNum; break;
+            default: break;
         }
         
         request.setAttribute("result", result);
